@@ -9,7 +9,9 @@ Aliases
 
   * `ls` lists directories first (applies to all aliases below).
   * `ll` lists with long format and git status (applies to all aliases below).
-  * `l`  lists all files.
+  * `l`  lists all files and ignore the `.git` directory (applies to all aliases below).
+  * `la` lists files with icons and type indicators
+  * `lg` lists files with respect to `.gitignore`
   * `lr` lists recursively as a tree.
   * `lx` lists sorted by extension.
   * `lk` lists sorted by largest file size last.
