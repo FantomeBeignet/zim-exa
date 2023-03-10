@@ -9,7 +9,7 @@ export EXA_ICON_SPACING=2
 
 alias ls='exa --group-directories-first'
 alias ll='ls -l --git'        # Long format, git status
-alias l='ll -a'               # Long format, all files
+alias l='ll -a -I ".git*"'     # Long format, all files
 alias la='l -F --icons'       # Long format, with icons and file type indicators
 alias lg='la --git-ignore'    # la with respect to .gitignore
 alias lr='la -T'              # Long format, recursive as a tree
